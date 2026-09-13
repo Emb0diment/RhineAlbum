@@ -46,3 +46,7 @@ node serve.mjs
 `npm run build` 完成类型检查和发布构建。浏览器回归脚本见 `scripts/check-player.cjs`：开发服务运行后，安装可选测试依赖 `npm install --no-save playwright`，运行 `node scripts/check-player.cjs`。可通过 `CHROME_PATH` 指定已有 Chrome，或先用 `npx playwright install chromium` 安装测试浏览器。
 
 测试在独立浏览器上下文中验证浏览不中断音频、跨歌单控制、末页不重复及乱序一致性，不会操作日常浏览器里的歌单。
+
+## 换设备继续开发
+
+参阅 [对话与开发交接记录](docs/CONVERSATION_HANDOFF.md)，其中记录了需求演变、当前交互约定、验证情况和后续工作。
