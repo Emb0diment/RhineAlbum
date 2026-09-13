@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.sites-runtime/
+.tools/
+*.log
+.local/
+.openai/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+reference/README-upstream.md
